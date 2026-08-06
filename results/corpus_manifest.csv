@@ -1,0 +1,53 @@
+repo,crate_name,source,tier,has_unstripped_twin,has_save_temps_now,last_build_date,rustc_version,notes
+tokei (root),tokei (root),round3 (cgu-recon prior rounds),A,True,False,2026-08-04/05 (round3 session),see round3 notes,"pre-extracted truth file retained, raw .o already cleaned up"
+ripgrep (root),ripgrep (root),round3 (cgu-recon prior rounds),A,True,False,2026-08-04/05 (round3 session),see round3 notes,"pre-extracted truth file retained, raw .o already cleaned up"
+regex_automata in bat,regex_automata in bat,round3 (cgu-recon prior rounds),A,True,False,2026-08-04/05 (round3 session),see round3 notes,"pre-extracted truth file retained, raw .o already cleaned up"
+clap_builder in fd,clap_builder in fd,round3 (cgu-recon prior rounds),A,True,False,2026-08-04/05 (round3 session),see round3 notes,"pre-extracted truth file retained, raw .o already cleaned up"
+bandwhich,bandwhich,unhusk/realval/corpus_src (in-scope),B,True,False,2026-05-14 17:47:38 +0800,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=424
+bat,bat,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-01 23:15:58 +0300,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=319
+bore,bore-cli,unhusk/realval/corpus_src (in-scope),C,False,False,2026-02-04 10:00:26 -0800,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=126
+bottom,bottom,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-15 08:11:49 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=230
+dog,dog,unhusk/realval/corpus_src (in-scope),C,False,False,2021-10-07 22:48:48 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=106
+dprint,dprint,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-14 18:23:41 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=386
+dufs,dufs,unhusk/realval/corpus_src (in-scope),B,True,False,2026-06-29 20:01:17 +0800,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=339
+dust,du-dust,unhusk/realval/corpus_src (in-scope),B,True,False,2026-02-21 15:29:15 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=132
+eza,eza,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-09 11:35:56 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=216
+fclones,fclones,unhusk/realval/corpus_src (in-scope),B,True,False,2025-03-03 10:48:19 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=199
+fd,fd-find,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-15 14:22:25 -0600,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=130
+ferium,ferium,unhusk/realval/corpus_src (in-scope),C,False,False,2026-05-16 12:41:03 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=372
+feroxbuster,feroxbuster,unhusk/realval/corpus_src (in-scope),C,False,False,2026-04-15 08:31:37 -0400,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=418
+gping,gping,unhusk/realval/corpus_src (in-scope),B,True,False,2026-06-24 21:40:03 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=203
+grex,grex,unhusk/realval/corpus_src (in-scope),B,True,False,2026-01-14 18:24:51 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=167
+hexyl,hexyl,unhusk/realval/corpus_src (in-scope),B,True,False,2026-04-30 10:24:05 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=68
+hyperfine,hyperfine,unhusk/realval/corpus_src (in-scope),B,True,False,2026-04-30 10:23:22 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=173
+just,just,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-15 21:45:21 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=157
+miniserve,miniserve,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-01 13:14:18 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=454
+mprocs,mprocs,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-12 00:11:50 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=321
+mqttui,mqttui,unhusk/realval/corpus_src (in-scope),C,False,False,2026-06-14 23:08:11 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=342
+netscanner,netscanner,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-06 18:36:54 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=414
+oha,oha,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-11 16:17:10 +0900,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=477
+ouch,ouch,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-06 21:19:47 -0400,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=250
+oxker,oxker,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-24 09:20:51 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=291
+pastel,pastel,unhusk/realval/corpus_src (in-scope),B,True,False,2026-03-13 20:37:44 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=122
+procs,procs,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-15 20:11:19 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=302
+pueue,pueue,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-18 18:38:23 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=344
+rage,rage,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-14 04:06:08 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=386
+rathole,rathole,unhusk/realval/corpus_src (in-scope),C,False,False,2025-07-29 10:05:58 +1000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=278
+ripgrep,ripgrep,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-15 12:31:04 -0400,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=59
+rustscan,rustscan,unhusk/realval/corpus_src (in-scope),B,True,False,2026-06-10 11:33:31 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=302
+sd,sd,unhusk/realval/corpus_src (in-scope),B,True,False,2026-02-25 20:25:13 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=106
+sniffnet,sniffnet,unhusk/realval/corpus_src (in-scope),A,False,True,2026-07-25 23:39:27 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=710
+spotify-tui,spotify-tui,unhusk/realval/corpus_src (in-scope),C,False,False,2021-11-17 20:29:15 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=255
+starship,starship,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-13 18:17:03 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=427
+taplo,taplo,unhusk/realval/corpus_src (in-scope),B,True,False,2026-03-11 23:11:57 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=316
+tealdeer,tealdeer,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-07 14:24:06 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=190
+tokei,tokei,unhusk/realval/corpus_src (in-scope),B,True,False,2026-05-06 18:42:32 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=204
+topgrade,topgrade,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-29 17:37:41 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=456
+trippy,trippy,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-13 23:22:09 +0900,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=425
+typos,typos,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-10 00:32:07 +0000,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=220
+websocat,websocat,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-26 14:28:37 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=223
+wormhole-rs,magic-wormhole,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-22 16:18:57 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=482
+xh,xh,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-11 14:17:59 +0100,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=383
+xsv,xsv,unhusk/realval/corpus_src (in-scope),B,True,False,2025-04-24 09:07:36 -0400,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=59
+zellij,zellij,unhusk/realval/corpus_src (in-scope),C,False,False,2026-07-29 17:08:08 +0200,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=527
+zoxide,zoxide,unhusk/realval/corpus_src (in-scope),B,True,False,2026-07-13 15:36:47 +0530,rustc 1.98.0-nightly (9e2abe0c6 2026-06-16),cargo_lock_pkgs=128

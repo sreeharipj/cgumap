@@ -1,0 +1,7 @@
+toolchain,crate,bin,n_known,n_true_cgus,n_groups_on_known,oversegmentation,true_boundaries,predicted_cuts,hits,precision,recall,weighted_purity,homogeneity,completeness,ari
+1.90.0,xsv,xsv,781,16,76,4.75,37,75,31,0.4133,0.8378,0.9923,0.996,0.8153,0.8455
+1.90.0,zoxide,zoxide,585,16,44,2.75,15,43,15,0.3488,1.0,1.0,1.0,0.9015,0.9797
+1.90.0,hexyl,hexyl,495,24,50,2.08,42,49,33,0.6735,0.7857,0.9798,0.9874,0.8746,0.8921
+1.91.1,xsv,xsv,779,16,39,2.44,24,38,23,0.6053,0.9583,0.9987,0.9993,0.9347,0.9477
+1.91.1,zoxide,zoxide,585,16,16,1.0,15,15,15,1.0,1.0,1.0,1.0,1.0,1.0
+1.91.1,hexyl,hexyl,497,24,40,1.67,43,39,33,0.8462,0.7674,0.9779,0.9855,0.9128,0.9237

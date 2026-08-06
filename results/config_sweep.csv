@@ -1,0 +1,97 @@
+crate,axis,value,n_functions,n_known_ground_truth,n_true_cgus,n_predicted_groups,adjusted_rand_index,homogeneity,completeness,build_ok,notes,elapsed_s,timestamp
+xsv,default,bfd_cgu16_ltooff_opt3_incroff,2793,722,16,148,0.9821,1.0,0.975,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.0,2026-08-06T01:36:57
+xsv,linker,gold,2797,722,16,171,0.9496,0.9978,0.9372,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.7,2026-08-06T01:37:06
+xsv,linker,lld,2793,722,16,148,0.9821,1.0,0.975,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.7,2026-08-06T01:37:15
+xsv,linker,mold,2793,722,16,146,0.9821,1.0,0.975,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",8.7,2026-08-06T01:37:25
+xsv,codegen-units,1,2152,489,1,37,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",16.3,2026-08-06T01:37:34
+xsv,codegen-units,256,2947,738,92,238,0.9583,0.9757,0.9874,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.1,2026-08-06T01:37:50
+xsv,lto,off,2793,722,16,148,0.9821,1.0,0.975,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",10.8,2026-08-06T01:38:02
+xsv,lto,thin-local,2793,722,16,148,0.9821,1.0,0.975,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.2,2026-08-06T01:38:13
+xsv,lto,thin,2617,721,16,136,0.9824,1.0,0.975,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",14.3,2026-08-06T01:38:25
+xsv,lto,fat,1842,1841,1,728,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",22.6,2026-08-06T01:38:40
+xsv,opt-level,2,2933,773,16,146,0.9709,0.9993,0.9588,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",8.5,2026-08-06T01:39:03
+xsv,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",9.6,2026-08-06T01:39:12
+hexyl,default,bfd_cgu16_ltooff_opt3_incroff,2014,521,25,86,0.9201,0.9742,0.9043,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",5.5,2026-08-06T01:39:21
+hexyl,linker,gold,2018,521,25,97,0.84,0.9731,0.863,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",5.5,2026-08-06T01:39:27
+hexyl,linker,lld,2014,521,25,86,0.9201,0.9742,0.9043,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",5.3,2026-08-06T01:39:32
+hexyl,linker,mold,2014,521,25,88,0.9201,0.9755,0.9044,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",5.1,2026-08-06T01:39:38
+hexyl,codegen-units,1,1603,439,2,25,0.71,1.0,0.4922,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.3,2026-08-06T01:39:43
+hexyl,codegen-units,256,2041,521,50,129,0.9081,0.9502,0.9222,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.1,2026-08-06T01:39:50
+hexyl,lto,off,2014,521,25,86,0.9201,0.9742,0.9043,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",5.2,2026-08-06T01:39:56
+hexyl,lto,thin-local,1338,1337,1,501,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.9,2026-08-06T01:40:02
+hexyl,lto,thin,1877,464,16,85,0.9182,0.9714,0.8886,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.8,2026-08-06T01:40:12
+hexyl,lto,fat,1338,1337,1,501,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",10.0,2026-08-06T01:40:19
+hexyl,opt-level,2,2030,523,25,85,0.922,0.9733,0.9092,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",5.3,2026-08-06T01:40:29
+hexyl,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",4.5,2026-08-06T01:40:34
+zoxide,default,bfd_cgu16_ltooff_opt3_incroff,2115,623,16,69,0.9929,1.0,0.9881,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",10.6,2026-08-06T01:40:40
+zoxide,linker,gold,2119,623,16,80,0.8627,0.999,0.91,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.2,2026-08-06T01:40:50
+zoxide,linker,lld,2115,623,16,69,0.9929,1.0,0.9881,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.0,2026-08-06T01:40:58
+zoxide,linker,mold,2115,623,16,70,0.9929,1.0,0.9881,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.9,2026-08-06T01:41:05
+zoxide,codegen-units,1,1654,504,1,25,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.4,2026-08-06T01:41:12
+zoxide,codegen-units,256,2201,636,81,142,0.9887,0.9607,0.9963,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.1,2026-08-06T01:41:21
+zoxide,lto,off,2115,623,16,69,0.9929,1.0,0.9881,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.6,2026-08-06T01:41:31
+zoxide,lto,thin-local,1418,1417,1,488,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.8,2026-08-06T01:41:38
+zoxide,lto,thin,1928,611,16,69,0.9955,1.0,0.992,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.0,2026-08-06T01:41:50
+zoxide,lto,fat,1418,1417,1,488,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.8,2026-08-06T01:41:59
+zoxide,opt-level,2,2133,632,16,70,0.993,1.0,0.9882,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",8.7,2026-08-06T01:42:11
+zoxide,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",7.3,2026-08-06T01:42:20
+pastel,default,bfd_cgu16_ltooff_opt3_incroff,1691,373,32,75,0.9799,0.9827,0.9858,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.8,2026-08-06T01:42:29
+pastel,linker,gold,1694,373,32,86,0.9618,0.9781,0.9652,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.4,2026-08-06T01:42:36
+pastel,linker,lld,1691,373,32,75,0.9799,0.9827,0.9858,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.7,2026-08-06T01:42:43
+pastel,linker,mold,1689,373,32,77,0.9799,0.9827,0.9858,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.7,2026-08-06T01:42:50
+pastel,codegen-units,1,1373,301,2,29,0.9401,0.9872,0.8219,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",8.5,2026-08-06T01:42:57
+pastel,codegen-units,256,1720,382,89,142,0.961,0.9495,0.9898,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",8.8,2026-08-06T01:43:05
+pastel,lto,off,1691,373,32,75,0.9799,0.9827,0.9858,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.7,2026-08-06T01:43:14
+pastel,lto,thin-local,1136,1128,1,450,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.7,2026-08-06T01:43:21
+pastel,lto,thin,1512,220,16,76,0.9909,0.9939,0.9929,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.9,2026-08-06T01:43:33
+pastel,lto,fat,1136,1128,1,450,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.1,2026-08-06T01:43:41
+pastel,opt-level,2,1712,390,32,76,0.9775,0.9841,0.9813,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",6.4,2026-08-06T01:43:52
+pastel,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",7.4,2026-08-06T01:43:59
+just,default,bfd_cgu16_ltooff_opt3_incroff,7064,2273,31,299,0.9808,0.9983,0.9672,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",19.3,2026-08-06T01:44:06
+just,linker,gold,7068,2273,31,342,0.9632,0.9978,0.9436,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",17.6,2026-08-06T01:44:26
+just,linker,lld,7064,2273,31,299,0.9808,0.9983,0.9672,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",21.1,2026-08-06T01:44:44
+just,linker,mold,7064,2273,31,307,0.9808,0.9983,0.9672,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",20.9,2026-08-06T01:45:05
+just,codegen-units,1,5220,1848,2,65,0.182,1.0,0.2191,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",33.1,2026-08-06T01:45:26
+just,codegen-units,256,7605,2309,245,603,0.9869,0.9856,0.9898,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",24.1,2026-08-06T01:45:59
+just,lto,off,7064,2273,31,299,0.9808,0.9983,0.9672,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",22.8,2026-08-06T01:46:24
+just,lto,thin-local,4637,4635,1,1803,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",37.5,2026-08-06T01:46:47
+just,lto,thin,6688,148,15,286,0.8479,0.966,0.8306,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",23.8,2026-08-06T01:47:24
+just,lto,fat,4637,4635,1,1803,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",40.7,2026-08-06T01:47:48
+just,opt-level,2,7533,2448,31,307,0.968,0.9978,0.9538,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",18.7,2026-08-06T01:48:29
+just,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",22.0,2026-08-06T01:48:48
+hyperfine,default,bfd_cgu16_ltooff_opt3_incroff,2395,484,16,142,0.9982,1.0,0.9907,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.6,2026-08-06T01:49:10
+hyperfine,linker,gold,2401,484,16,166,0.8795,0.9976,0.9097,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.8,2026-08-06T01:49:18
+hyperfine,linker,lld,2395,484,16,142,0.9982,1.0,0.9907,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",8.1,2026-08-06T01:49:28
+hyperfine,linker,mold,2393,484,16,144,0.9982,1.0,0.9907,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.5,2026-08-06T01:49:36
+hyperfine,codegen-units,1,1945,408,1,46,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",12.0,2026-08-06T01:49:44
+hyperfine,codegen-units,256,2420,487,87,229,0.9906,0.971,0.9941,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",10.5,2026-08-06T01:49:56
+hyperfine,lto,off,2395,484,16,142,0.9982,1.0,0.9907,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",9.4,2026-08-06T01:50:07
+hyperfine,lto,thin-local,1557,1549,1,597,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",13.8,2026-08-06T01:50:17
+hyperfine,lto,thin,2179,469,16,140,0.9986,1.0,0.9935,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.4,2026-08-06T01:50:30
+hyperfine,lto,fat,1557,1549,1,597,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",14.6,2026-08-06T01:50:43
+hyperfine,opt-level,2,2409,491,16,142,0.9982,1.0,0.9908,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",7.5,2026-08-06T01:50:58
+hyperfine,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",7.4,2026-08-06T01:51:06
+gping,default,bfd_cgu16_ltooff_opt3_incroff,4574,554,16,250,0.9581,0.998,0.9179,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",13.3,2026-08-06T01:51:13
+gping,linker,gold,4590,554,16,291,0.8603,0.9963,0.8584,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",15.7,2026-08-06T01:51:27
+gping,linker,lld,4574,554,16,250,0.9581,0.998,0.9179,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",12.7,2026-08-06T01:51:43
+gping,linker,mold,4572,554,16,253,0.9581,0.998,0.9179,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",11.6,2026-08-06T01:51:56
+gping,codegen-units,1,3639,463,1,56,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",12.4,2026-08-06T01:52:07
+gping,codegen-units,256,4644,587,67,418,0.9395,0.9746,0.9298,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",15.8,2026-08-06T01:52:20
+gping,lto,off,4574,554,16,250,0.9581,0.998,0.9179,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",14.7,2026-08-06T01:52:36
+gping,lto,thin-local,2980,2975,1,1160,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",24.2,2026-08-06T01:52:51
+gping,lto,thin,4278,555,16,242,0.9588,0.998,0.9183,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",13.9,2026-08-06T01:53:15
+gping,lto,fat,2980,2975,1,1160,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",22.7,2026-08-06T01:53:30
+gping,opt-level,2,4746,565,16,252,0.9595,0.9981,0.9194,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",16.6,2026-08-06T01:53:52
+gping,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",15.3,2026-08-06T01:54:09
+fclones,default,bfd_cgu16_ltooff_opt3_incroff,6416,1657,32,342,0.9387,1.0,0.9643,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",17.9,2026-08-06T01:54:27
+fclones,linker,gold,6423,1657,32,404,0.8885,0.9985,0.9178,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",16.6,2026-08-06T01:54:45
+fclones,linker,lld,6416,1657,32,342,0.9387,1.0,0.9643,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",16.3,2026-08-06T01:55:02
+fclones,linker,mold,6414,1657,32,352,0.9387,1.0,0.9643,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",18.6,2026-08-06T01:55:18
+fclones,codegen-units,1,5217,1253,2,77,0.3858,1.0,0.3924,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",23.7,2026-08-06T01:55:37
+fclones,codegen-units,256,6606,1748,232,665,0.9383,0.9697,0.9905,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",23.2,2026-08-06T01:56:01
+fclones,lto,off,6416,1657,32,342,0.9387,1.0,0.9643,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",18.1,2026-08-06T01:56:25
+fclones,lto,thin-local,4140,4135,1,1527,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",35.0,2026-08-06T01:56:43
+fclones,lto,thin,6019,430,16,335,0.6096,0.995,0.7557,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",17.3,2026-08-06T01:57:18
+fclones,lto,fat,4140,4135,1,1527,0.0,1.0,0.0,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",35.5,2026-08-06T01:57:36
+fclones,opt-level,2,6610,1739,32,347,0.927,1.0,0.9514,True,"A (symbol sort-order-reset; corpus mean ARI 0.883, homogeneity 0.985)",18.3,2026-08-06T01:58:11
+fclones,incremental,on,0,0,0,0,,,,True,"built OK, no scorable binary (possibly collapsed to 1 CGU / no matching rcgu.o)",23.7,2026-08-06T01:58:30

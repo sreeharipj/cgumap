@@ -1,0 +1,51 @@
+binary,language,n_functions,n_named,n_groups_emitted,mean_run_length,median_run_length,max_run_length,notes
+bat__bat_unstripped,rust,10316,10316,800,12.89,5,643,
+bottom__btm_unstripped,rust,6698,6698,288,23.26,9,553,
+dufs__dufs_unstripped,rust,8869,8869,1280,6.93,2,544,
+eza__eza_unstripped,rust,2853,2853,1072,2.66,2,216,
+fclones__fclones_unstripped,rust,6416,6416,342,18.76,8,623,
+gping__gping_unstripped,rust,4574,4574,250,18.3,8,526,
+grex__grex_unstripped,rust,3391,3391,131,25.89,15,382,
+hexyl__hexyl_unstripped,rust,2014,2014,86,23.42,10,413,
+hyperfine__hyperfine_unstripped,rust,2395,2395,142,16.87,5,506,
+just__just_unstripped,rust,7064,7064,299,23.63,7,596,
+ouch__ouch_unstripped,rust,8814,8778,885,9.92,2,574,
+oxker__oxker_unstripped,rust,6644,6644,371,17.91,6,577,
+pastel__pastel_unstripped,rust,1691,1691,75,22.55,10,423,
+procs__procs_unstripped,rust,10249,10249,444,23.08,9,603,
+rathole__rathole_unstripped,rust,4263,4261,930,4.58,2,303,
+rustscan__rustscan_unstripped,rust,6972,6969,487,14.31,5,586,
+sd__xtask_unstripped,rust,1619,1619,81,19.99,11,362,
+tokei__tokei_unstripped,rust,4759,4759,275,17.31,9,517,
+websocat__websocat_unstripped,rust,7401,7401,364,20.33,6,553,
+xsv__xsv_unstripped,rust,2793,2793,148,18.87,6,472,
+zoxide__zoxide_unstripped,rust,2115,2115,69,30.65,13,486,
+dlv,go,0,0,0,0,0,0,no .eh_frame FDEs 
+ffuf,go,0,0,0,0,0,0,no .eh_frame FDEs 
+fzf,go,0,0,0,0,0,0,no .eh_frame FDEs 
+glow,go,0,0,0,0,0,0,no .eh_frame FDEs 
+gopls,go,0,0,0,0,0,0,no .eh_frame FDEs 
+httpx,go,0,0,0,0,0,0,no .eh_frame FDEs 
+k9s,go,1008,1006,501,2.01,2,15,
+katana,go,406,404,151,2.68,2,75,
+lazygit,go,0,0,0,0,0,0,no .eh_frame FDEs 
+nuclei,go,1926,1924,935,2.06,2,47,
+subfinder,go,0,0,0,0,0,0,no .eh_frame FDEs 
+vhs,go,0,0,0,0,0,0,no .eh_frame FDEs 
+yq,go,0,0,0,0,0,0,no .eh_frame FDEs 
+redis-server,c,6998,6995,3453,2.03,2,12,
+redis-cli,c,1376,1373,681,2.02,2,9,
+redis-benchmark,c,1202,1199,591,2.03,2,9,
+redis-sentinel,c,6998,6995,3453,2.03,2,12,
+redis-check-aof,c,6998,6995,3453,2.03,2,12,
+redis-check-rdb,c,6998,6995,3453,2.03,2,12,
+repro,c,5,2,1,2.0,2,2,
+repro_final,c,5,2,1,2.0,2,2,
+alpha_bin,c,25,22,7,3.14,4,4,"synthetic multi-TU test program, not a real-world project"
+bravo_bin,c,25,22,7,3.14,4,4,"synthetic multi-TU test program, not a real-world project"
+charlie_bin,c,25,22,7,3.14,4,4,"synthetic multi-TU test program, not a real-world project"
+delta_bin,c,25,22,7,3.14,4,4,"synthetic multi-TU test program, not a real-world project"
+echo_p_bin,cpp,15,12,3,4.0,1,10,"synthetic multi-TU test program, not a real-world project"
+foxtrot_bin,cpp,15,12,3,4.0,1,10,"synthetic multi-TU test program, not a real-world project"
+golf_bin,cpp,15,12,3,4.0,1,10,"synthetic multi-TU test program, not a real-world project"
+hotel_bin,cpp,15,12,3,4.0,1,10,"synthetic multi-TU test program, not a real-world project"

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Never commit binaries or a corpus
+*.elf
+*.o
+*.so
+target/
+
+# Local agent instructions -- not for the public repo
+agents.md
+
+# Local tool output
+*.cgumap.json
+*.cgumap.ghidra.py
+
+.DS_Store
