@@ -69,7 +69,7 @@ the write-up below.
 
 ## Write-up
 
-[Your Rust Binary Was Compiled in 16 Pieces. You Can Still See Where They Join.](#TODO-blog-link)
+[Blog.]([(https://sreeharipj.github.io/posts/cgumap/))
 
 ## License
 
