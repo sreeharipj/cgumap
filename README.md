@@ -69,7 +69,7 @@ the write-up below.
 
 ## Write-up
 
-[Blog.]([(https://sreeharipj.github.io/posts/cgumap/))
+[Blog](https://sreeharipj.github.io/posts/cgumap/)
 
 ## License
 
